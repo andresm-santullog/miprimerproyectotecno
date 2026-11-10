@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# fichero que no quiero subir a github
+.env
+data/*
+.env copy
