@@ -26,7 +26,6 @@ def pares_impares(lista):
 if __name__ == "__main__":
     n = 1000
     pares, impares = pares_impares(list(range(n + 1)))
-
     print("Números pares:", pares[:5], "...")  # primeros 5 números pares
     print("Números impares:", impares[:5], "...")  # primeros 5 números impares
     print("Total de números pares:", len(pares))
